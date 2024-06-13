@@ -24,7 +24,7 @@ public class playerscript : MonoBehaviour
         Vector3 v = rb.velocity;
         Vector3 rayPosition = transform.position + new Vector3(0.0f, 0.8f, 0.0f);
         Ray ray = new Ray(rayPosition, Vector3.down);
-        float moveSpeed = 3;
+        float moveSpeed = 4;
         float jump = 7;
         float distance = 0.9f;
         float stick = Input.GetAxis("Horizontal");
@@ -33,14 +33,14 @@ public class playerscript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.RightArrow)||stick>0)
         {
-            transform.rotation = Quaternion.Euler(0, 90, 0);
             v.x = moveSpeed;
+            transform.rotation = Quaternion.Euler(0, 90, 0);
             Animator.SetBool("mode", true);
         }
         else if (Input.GetKey(KeyCode.LeftArrow)||stick<0)
         {
-            transform.rotation = Quaternion.Euler(0, -90, 0);
             v.x = -moveSpeed;
+            transform.rotation = Quaternion.Euler(0, -90, 0);
             Animator.SetBool("mode", true);
         }
         else
