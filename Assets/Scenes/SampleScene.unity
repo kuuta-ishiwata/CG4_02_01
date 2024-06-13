@@ -5893,7 +5893,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e3bddb5a58a09e4459292d35d98d9002, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -6283,6 +6283,10 @@ PrefabInstance:
     - target: {fileID: 6756110712704323934, guid: 8b748281112bc864aa47b00d60760558, type: 3}
       propertyPath: m_Name
       value: BombParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6756110712704323934, guid: 8b748281112bc864aa47b00d60760558, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7074029907803522178, guid: 8b748281112bc864aa47b00d60760558, type: 3}
       propertyPath: ColorModule.enabled
