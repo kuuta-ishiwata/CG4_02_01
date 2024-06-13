@@ -66,14 +66,14 @@ public class playerscript : MonoBehaviour
         }
         Debug.Log(v);
 
-        if(isBlock == true)
-        {
-            Debug.DrawRay(rayPosition, Vector3.down * distance, Color.red);
-        }
-        else
-        {
-            Debug.DrawRay(rayPosition, Vector3.down * distance, Color.yellow);
-        }
+        //if(isBlock == true)
+        //{
+        //    Debug.DrawRay(rayPosition, Vector3.down * distance, Color.red);
+        //}
+        //else
+        //{
+        //    Debug.DrawRay(rayPosition, Vector3.down * distance, Color.yellow);
+        //}
 
     }
 
