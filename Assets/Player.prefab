@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2866679628125804375
 Transform:
   m_ObjectHideFlags: 0
@@ -115,12 +115,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9028459974011778017}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 485bb2eee27bf3a45b7a3c0ffc76fe95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: -2686954383396759336}
+  bombParticle: {fileID: 0}
+  Animator: {fileID: 0}
 --- !u!54 &-2686954383396759336
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -155,9 +157,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9028459974011778017}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 485bb2eee27bf3a45b7a3c0ffc76fe95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: -2686954383396759336}
+  bombParticle: {fileID: 0}
+  Animator: {fileID: 0}
